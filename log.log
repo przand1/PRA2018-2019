@@ -1,0 +1,69 @@
+2018-11-16 14:13:59 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-16 14:13:59 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-11-16 14:13:59 INFO  PersistenceXmlParser:80 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-16 14:13:59 DEBUG HibernatePersistenceProvider:98 - Located and parsed 0 persistence units; checking each
+2018-11-16 14:13:59 DEBUG HibernatePersistenceProvider:133 - Found no matching persistence units
+2018-11-16 14:14:45 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-16 14:14:45 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-11-16 14:14:45 INFO  PersistenceXmlParser:80 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-16 14:14:45 DEBUG HibernatePersistenceProvider:98 - Located and parsed 0 persistence units; checking each
+2018-11-16 14:14:45 DEBUG HibernatePersistenceProvider:133 - Found no matching persistence units
+2018-11-16 14:35:15 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-16 14:35:15 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-11-16 14:35:15 INFO  PersistenceXmlParser:80 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-16 14:35:15 DEBUG HibernatePersistenceProvider:98 - Located and parsed 0 persistence units; checking each
+2018-11-16 14:35:15 DEBUG HibernatePersistenceProvider:133 - Found no matching persistence units
+2018-11-16 14:37:53 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-16 14:37:53 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-11-16 14:37:53 INFO  PersistenceXmlParser:80 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-16 14:37:53 DEBUG HibernatePersistenceProvider:98 - Located and parsed 0 persistence units; checking each
+2018-11-16 14:37:53 DEBUG HibernatePersistenceProvider:133 - Found no matching persistence units
+2018-11-16 14:39:10 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-16 14:39:10 DEBUG ClassLoaderServiceImpl:124 - Incoming config yielded no classloaders; adding standard SE ones
+2018-11-16 14:39:10 INFO  PersistenceXmlParser:80 - HHH000318: Could not find any META-INF/persistence.xml file in the classpath
+2018-11-16 14:39:10 DEBUG HibernatePersistenceProvider:98 - Located and parsed 0 persistence units; checking each
+2018-11-16 14:39:10 DEBUG HibernatePersistenceProvider:133 - Found no matching persistence units
+2018-11-23 14:56:36 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-23 14:56:36 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2018-11-23 14:56:37 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2018-11-23 14:56:37 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-11-23 14:56:37 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2018-11-23 14:56:37 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-23 14:56:37 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-11-23 14:56:37 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2018-11-23 14:56:37 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2018-11-23 14:56:37 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2018-11-23 14:56:37 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-11-23 14:56:38 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2018-11-23 14:56:38 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: ADDRESSES
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE_EMPLOYEE
+2018-11-23 14:56:39 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE_EMPLOYEE
+2018-11-23 14:56:39 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-11-23 14:56:39 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2018-11-23 15:00:50 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-11-23 15:00:50 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [
+	name: hibernate-dynamic
+	...]
+2018-11-23 15:00:50 INFO  Version:37 - HHH000412: Hibernate Core {5.2.0.Final}
+2018-11-23 15:00:50 INFO  Environment:213 - HHH000206: hibernate.properties not found
+2018-11-23 15:00:50 INFO  Environment:318 - HHH000021: Bytecode provider name : javassist
+2018-11-23 15:00:50 INFO  Version:66 - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-11-23 15:00:50 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2018-11-23 15:00:50 INFO  connections:127 - HHH10001005: using driver [org.hsqldb.jdbcDriver] at URL [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2018-11-23 15:00:50 INFO  connections:136 - HHH10001001: Connection properties: {user=sa}
+2018-11-23 15:00:50 INFO  connections:141 - HHH10001003: Autocommit mode: false
+2018-11-23 15:00:50 INFO  DriverManagerConnectionProviderImpl:39 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2018-11-23 15:00:51 INFO  Dialect:152 - HHH000400: Using dialect: org.hibernate.dialect.HSQLDialect
+2018-11-23 15:00:51 INFO  Version:17 - HV000001: Hibernate Validator 5.2.0.Final
+2018-11-23 15:00:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE
+2018-11-23 15:00:52 INFO  InformationExtractorJdbcDatabaseMetaDataImpl:393 - HHH000262: Table not found: EMPLOYEE
+2018-11-23 15:00:52 INFO  QueryTranslatorFactoryInitiator:47 - HHH000397: Using ASTQueryTranslatorFactory
+2018-11-23 15:00:52 INFO  connections:235 - HHH10001008: Cleaning up connection pool [jdbc:hsqldb:mem:PUBLIC;sql.syntax_ora=true]
+2018-12-12 18:18:16 DEBUG logging:38 - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+2018-12-12 18:18:16 WARN  connections:71 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
