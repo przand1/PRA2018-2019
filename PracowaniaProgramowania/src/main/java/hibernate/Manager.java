@@ -66,42 +66,17 @@ class Manager {
             //utworz entityManagera
             entityManager = entityManagerFactory.createEntityManager();
 
-//            saveSomething(entityManager);
             //rozpocznij transakcje
+//            entityManager.getTransaction().begin();
+//            generateEmployees(entityManager);
+//            entityManager.flush();
+//            entityManager.getTransaction().commit();
+
+//            entityManager.getTransaction().begin();
+//            entityManager.createQuery("select k from Employee k").getResultList().forEach(e->System.out.println(e));
+//            System.out.println("--------------------------------------------------------------------------------------------");
+//            entityManager.getTransaction().commit();
             entityManager.getTransaction().begin();
-
-//            Employee jan = new Employee();
-//            jan.setFirstName("Jan");
-//            jan.setLastName("Biały");
-//            entityManager.persist(jan);
-//            System.out.println(jan);
-//            Address a = new Address("Biała","Bielice","4","5A","12345");
-//            jan.setAddress(a);
-//            entityManager.persist(jan);
-//            System.out.println(jan);
-            generateEmployees(entityManager);
-            entityManager.flush();
-            System.out.println("--------------------------------------------------------------------------------------------");
-//            Employee emp = new Employee();
-//            emp.setFirstName("Jan");
-//            emp.setLastName("Polak");
-////            emp.setSalary(100);
-////            emp.setPesel(100);
-
-//            entityManager.persist(emp);
-//
-//            Employee employee = entityManager.find(Employee.class, emp.getId());
-//
-//            entityManager.remove(emp);
-//
-//            System.out.println("Employee " + employee.getId() + " " + employee.getFirstName() +     employee.getLastName());
-
-            //zakoncz transakcje
-
-
-            entityManager.getTransaction().commit();
-
-
             System.out.println("Done");
 
             entityManager.close();
