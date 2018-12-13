@@ -70,16 +70,17 @@ class Manager {
             //rozpocznij transakcje
             entityManager.getTransaction().begin();
 
-            Employee jan = new Employee();
-            jan.setFirstName("Jan");
-            jan.setLastName("Biały");
-            entityManager.persist(jan);
-            System.out.println(jan);
-            Address a = new Address("Biała","Bielice","4","5A","12345");
-            jan.setAddress(a);
-            entityManager.persist(jan);
-            System.out.println(jan);
-
+//            Employee jan = new Employee();
+//            jan.setFirstName("Jan");
+//            jan.setLastName("Biały");
+//            entityManager.persist(jan);
+//            System.out.println(jan);
+//            Address a = new Address("Biała","Bielice","4","5A","12345");
+//            jan.setAddress(a);
+//            entityManager.persist(jan);
+//            System.out.println(jan);
+            generateEmployees(entityManager);
+            entityManager.flush();
             System.out.println("--------------------------------------------------------------------------------------------");
 //            Employee emp = new Employee();
 //            emp.setFirstName("Jan");
