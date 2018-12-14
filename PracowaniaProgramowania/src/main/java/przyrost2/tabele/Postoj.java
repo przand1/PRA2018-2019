@@ -1,6 +1,7 @@
 package przyrost2.tabele;
 
 import javax.persistence.*;
+import java.time.ZonedDateTime;
 
 @Entity
 public class Postoj {
@@ -16,6 +17,58 @@ public class Postoj {
     @JoinColumn(name = "Stacja_ID",referencedColumnName = "id")
     private Stacja stacja;
 
-//    @Column
-//    private
+    @Column
+    private ZonedDateTime przyjazd;
+
+    @Column
+    private ZonedDateTime odjazd;
+
+    public Postoj() {}
+
+    public Postoj(Pociag pociag, Stacja stacja, ZonedDateTime przyjazd, ZonedDateTime odjazd) {
+        this.pociag = pociag;
+        this.stacja = stacja;
+        this.przyjazd = przyjazd;
+        this.odjazd = odjazd;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Pociag getPociag() {
+        return pociag;
+    }
+
+    public void setPociag(Pociag pociag) {
+        this.pociag = pociag;
+    }
+
+    public Stacja getStacja() {
+        return stacja;
+    }
+
+    public void setStacja(Stacja stacja) {
+        this.stacja = stacja;
+    }
+
+    public ZonedDateTime getPrzyjazd() {
+        return przyjazd;
+    }
+
+    public void setPrzyjazd(ZonedDateTime przyjazd) {
+        this.przyjazd = przyjazd;
+    }
+
+    public ZonedDateTime getOdjazd() {
+        return odjazd;
+    }
+
+    public void setOdjazd(ZonedDateTime odjazd) {
+        this.odjazd = odjazd;
+    }
 }
