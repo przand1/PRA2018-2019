@@ -1,0 +1,1308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/PracowaniaProgramowania/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1274868366">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="27" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.checkout.local" value="82" />
+          <entry key="git.branch.checkout.remote" value="11" />
+          <entry key="git.branch.compare" value="4" />
+          <entry key="git.branch.create.new" value="2" />
+          <entry key="git.branch.merge" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="28" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="5" />
+          <entry key="java" value="182" />
+          <entry key="jpg" value="2" />
+          <entry key="json" value="22" />
+          <entry key="log" value="9" />
+          <entry key="md" value="5" />
+          <entry key="myData" value="5" />
+          <entry key="properties" value="16" />
+          <entry key="txt" value="55" />
+          <entry key="xml" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="28" />
+          <entry key="IDEA_MODULE" value="5" />
+          <entry key="Image" value="2" />
+          <entry key="JAVA" value="182" />
+          <entry key="JSON" value="22" />
+          <entry key="Markdown" value="5" />
+          <entry key="PLAIN_TEXT" value="70" />
+          <entry key="Properties" value="16" />
+          <entry key="XML" value="58" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="7636" />
+          <entry key="json" value="3" />
+          <entry key="properties" value="11" />
+          <entry key="txt" value="97" />
+          <entry key="xml" value="116" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="7636" />
+          <entry key="JSON" value="3" />
+          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="Properties" value="11" />
+          <entry key="XML" value="116" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>interface</find>
+      <find>trigger</find>
+      <find>key</find>
+      <find>newJob</find>
+      <find>indexOf</find>
+      <find>dyna</find>
+      <find>Session</find>
+      <find>hiber</find>
+      <find>hql</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>charAt</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="HibernateEnd" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/pracownia/introduction/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/second/shortcuts/ClassThatHaveItAll.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/second/debug/hidden/MakeThings.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/second/debug/ConditionalBreak.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/second/debug/hidden/ObjectMaker.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/SimpleScheduler.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/JobWithMap.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/JobMapScheduler.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/Human.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/job/JobWithMap.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/JobMapScheduler.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/TimeOps.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/job/SimpleJob.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/HumanContainer.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/PeselTesterTest.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/job/TimeOpsTest.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/PeselTester.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/job/TimeOps.java" />
+        <option value="$PROJECT_DIR$/asdTest.json" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/model/Asd.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/pl/edu/amu/pracprog/JacksonSerialization.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/lambdas/ListOperations.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/Hello.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hello/Hello.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/pom.xml" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hello/Employee.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hello/model/Employee.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/model/Employee.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/resources/META_INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PracowniaMain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="PracowniaMain" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="286" />
+    <option name="y" value="1" />
+    <option name="width" value="1454" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="przyrost2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="przyrost2" type="462c0819:PsiDirectoryNode" />
+              <item name="tabele" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PRA2018-2019" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="target" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544783048902" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PracowaniaProgramowania/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="quartz.job" />
+      <recent name="quartz.scheduler" />
+      <recent name="second.junit" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler" />
+      <recent name="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/job" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Manager">
+    <configuration name="JobMapScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quartz.scheduler.JobMapScheduler" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quartz.scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hibernate.Manager" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hibernate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PeselTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quartz.scheduler.PeselTester" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quartz.scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quartz.scheduler.SimpleScheduler" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quartz.scheduler.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TimeOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="quartz.job.TimeOps" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="quartz.job.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.SimpleScheduler" />
+      <item itemvalue="Application.JobMapScheduler" />
+      <item itemvalue="Application.Manager" />
+      <item itemvalue="Application.TimeOps" />
+      <item itemvalue="Application.PeselTester" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Manager" />
+        <item itemvalue="Application.PeselTester" />
+        <item itemvalue="Application.TimeOps" />
+        <item itemvalue="Application.JobMapScheduler" />
+        <item itemvalue="Application.SimpleScheduler" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="" />
+      <created>1538740299223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538740299223</updated>
+      <workItem from="1538740300885" duration="3666000" />
+      <workItem from="1539344491838" duration="5769000" />
+      <workItem from="1539949850426" duration="3654000" />
+      <workItem from="1540554448099" duration="5200000" />
+      <workItem from="1541764953505" duration="1087000" />
+      <workItem from="1541766068290" duration="367000" />
+      <workItem from="1541767511572" duration="3917000" />
+      <workItem from="1541771471463" duration="123000" />
+      <workItem from="1542272077125" duration="6496000" />
+      <workItem from="1542278782995" duration="7080000" />
+      <workItem from="1542317541524" duration="2538000" />
+      <workItem from="1542321308534" duration="4070000" />
+      <workItem from="1542369182069" duration="2524000" />
+      <workItem from="1542372034729" duration="5070000" />
+      <workItem from="1542978398013" duration="63000" />
+      <workItem from="1542978505767" duration="51000" />
+      <workItem from="1542979902971" duration="2393000" />
+      <workItem from="1543580903051" duration="1641000" />
+      <workItem from="1544445227040" duration="4167000" />
+      <workItem from="1544629715895" duration="957000" />
+      <workItem from="1544632112142" duration="4590000" />
+      <workItem from="1544690791269" duration="997000" />
+      <workItem from="1544691957687" duration="5318000" />
+      <workItem from="1544702004767" duration="774000" />
+      <workItem from="1544703004266" duration="1155000" />
+      <workItem from="1544706127341" duration="2525000" />
+      <workItem from="1544710555907" duration="34000" />
+      <workItem from="1544780734372" duration="2310000" />
+    </task>
+    <task id="LOCAL-00001" summary="Commit 1">
+      <created>1538743552989</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538743552989</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Commit 1">
+      <created>1539348744671</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539348744671</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init">
+      <created>1539350161486</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539350161486</updated>
+    </task>
+    <task id="LOCAL-00004" summary="init">
+      <created>1539350232005</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539350232005</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ulif">
+      <created>1539953438826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539953438826</updated>
+    </task>
+    <task id="LOCAL-00006" summary="passed Human">
+      <created>1542277785246</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542277785246</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cpoypaste">
+      <created>1542278171266</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1542278171266</updated>
+    </task>
+    <task id="LOCAL-00008" summary="aaa">
+      <created>1542319559266</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1542319559266</updated>
+    </task>
+    <task id="LOCAL-00009" summary="aaa">
+      <created>1542373802477</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1542373802479</updated>
+    </task>
+    <task id="LOCAL-00010" summary="aaa">
+      <created>1542373939499</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1542373939499</updated>
+    </task>
+    <task id="LOCAL-00011" summary="aaa">
+      <created>1542376819321</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1542376819321</updated>
+    </task>
+    <task id="LOCAL-00012" summary="aaa">
+      <created>1544446017625</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544446017626</updated>
+    </task>
+    <task id="LOCAL-00013" summary="aaa">
+      <created>1544629847595</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544629847595</updated>
+    </task>
+    <task id="LOCAL-00014" summary="aaa">
+      <created>1544635005511</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1544635005511</updated>
+    </task>
+    <task id="LOCAL-00015" summary="clean">
+      <created>1544635493214</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1544635493214</updated>
+    </task>
+    <task id="LOCAL-00016" summary="master1">
+      <created>1544635676228</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1544635676228</updated>
+    </task>
+    <task id="LOCAL-00017" summary="masdter2">
+      <created>1544636394264</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1544636394264</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mastre3">
+      <created>1544636573507</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544636573507</updated>
+    </task>
+    <task id="LOCAL-00019" summary="mastre3">
+      <created>1544696517707</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1544696517707</updated>
+    </task>
+    <task id="LOCAL-00020" summary="mastre3">
+      <created>1544697007795</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1544697007795</updated>
+    </task>
+    <task id="LOCAL-00021" summary="baza psql">
+      <created>1544703546357</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1544703546358</updated>
+    </task>
+    <task id="LOCAL-00022" summary="baza psql">
+      <created>1544710575219</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1544710575219</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="78536000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="-1" width="1922" height="1060" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Persistence" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32867885" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72998935" weight="0.2964554" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.375" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994664" weight="0.32760474" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32844576" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.27001068" side_tool="true" visible="true" weight="0.2964554" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4968017" weight="0.32692307" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.12379936" />
+      <window_info anchor="right" id="CDI" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit 1" />
+    <MESSAGE value="init" />
+    <MESSAGE value="ulif" />
+    <MESSAGE value="passed Human" />
+    <MESSAGE value="cpoypaste" />
+    <MESSAGE value="aaa" />
+    <MESSAGE value="clean" />
+    <MESSAGE value="master1" />
+    <MESSAGE value="masdter2" />
+    <MESSAGE value="mastre3" />
+    <MESSAGE value="baza psql" />
+    <option name="LAST_COMMIT_MESSAGE" value="baza psql" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="!everythingIsOK" language="JAVA" />
+          <url>file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/second/debug/ConditionalBreak.java</url>
+          <line>18</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>myArray</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>myArray[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>ObjectAnalyzer.processElementAtIndex(myArray, i)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99999)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list[99999]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Collections</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Collections.reverse(list);
+list.get(99999);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Collections</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Collections.reverse(list);</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.util.Collections</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99998)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>!everythingIsOK</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>list.get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(50000)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99998)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99999)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99990)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99900)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(99000)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(70000)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.get(30000)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spring/MainApp.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/model/Address.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/pl/edu/amu/pracprog/ModelObjectsCreator.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/model/Asd.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/pl/edu/amu/pracprog/JacksonSerialization.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Comparator.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Collectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/lambdas/ListOperations.java" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/quartz/scheduler/JobMapScheduler.java" />
+    <entry file="file://$PROJECT_DIR$/asdTest.json" />
+    <entry file="file://$PROJECT_DIR$/result.json" />
+    <entry file="file://$PROJECT_DIR$/result-modified.json" />
+    <entry file="file://$PROJECT_DIR$/log.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hello/Hello.java" />
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/internal/SessionFactoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="549" selection-start-line="549" selection-end-line="549" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/boot/internal/SessionFactoryOptionsImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="155" selection-start-line="155" selection-end-line="155" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/resource/transaction/backend/jdbc/internal/JdbcResourceLocalTransactionCoordinatorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="76" selection-start-line="76" selection-end-line="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/resource/transaction/backend/jdbc/internal/JdbcResourceLocalTransactionCoordinatorBuilderImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/internal/AbstractSharedSessionContract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="288" column="23" selection-start-line="288" selection-start-column="23" selection-end-line="288" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/engine/transaction/internal/TransactionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/hibernate-core/5.2.0.Final/hibernate-core-5.2.0.Final.jar!/org/hibernate/internal/CoreLogging.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Log4jLoggerProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Log4jLogger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/spi/DefaultRepositorySelector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/LogManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/CategoryKey.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Category.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/DefaultCategoryFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Hierarchy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar!/org/jboss/logging/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/resources/META_INF/persistence.xml" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/queries/Queries.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/function/Consumer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="51" selection-end-line="78" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getThemAll#0;class#Manager#0" />
+            <element signature="method#generateEmployees#0;class#Manager#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/OneToOne.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar!/javax/persistence/CascadeType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PracowniaMain</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
