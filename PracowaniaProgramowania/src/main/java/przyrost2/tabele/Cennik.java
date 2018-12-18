@@ -1,19 +1,19 @@
 package przyrost2.tabele;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "CENNIKI")
 public class Cennik {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
-    @Column
+    @Column(name = "Stawka_za_km_Klasa_1")
     private float stawkaZaKmKl1;
-    @Column
+    @Column(name = "Stawka_za_km_Klasa_2")
     private float stawkaZaKmKl2;
 
     public Cennik() {}

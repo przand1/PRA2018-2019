@@ -1,10 +1,17 @@
 package przyrost2.tabele;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import javax.persistence.*;
 
+@Entity
+@Table(name = "ODCINKI_TRAS")
 public class OdcinekTrasy {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
     @ManyToOne
@@ -15,7 +22,10 @@ public class OdcinekTrasy {
     @JoinColumn(name = "Stacja_2_ID",referencedColumnName = "id")
     private Stacja stacja2;
 
-    @Column
+    @ManyToMany(mappedBy = "przebiegTrasy",cascade = CascadeType.ALL)
+    private Set<Trasa> trasy = new HashSet<Trasa>();
+
+    @Column(name = "Dlugosc_Odcinka")
     private float dlugosc;
 
     public OdcinekTrasy() {}

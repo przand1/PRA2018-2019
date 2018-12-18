@@ -3,9 +3,12 @@ package przyrost2.tabele;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "PRZEWOZNICY")
 public class Przewoznik {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
 
@@ -13,11 +16,11 @@ public class Przewoznik {
     @JoinColumn(name = "Cennik_ID", referencedColumnName = "id")
     private Cennik cennik;
 
-    @Column
+    @Column(name = "Nazwa_firmy")
     private String nazwa;
-    @Column
+    @Column(name = "Skrot")
     private String skrot;
-    @Column
+    @Column(name = "Adres_Siedziby")
     private String siedziba;
 
     public Przewoznik() {}

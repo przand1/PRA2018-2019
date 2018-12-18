@@ -4,9 +4,12 @@ import javax.persistence.*;
 import java.time.ZonedDateTime;
 
 @Entity
+@Table(name = "POSTOJE")
 public class Postoj {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
     @ManyToOne
@@ -17,10 +20,10 @@ public class Postoj {
     @JoinColumn(name = "Stacja_ID",referencedColumnName = "id")
     private Stacja stacja;
 
-    @Column
+    @Column(name = "Czas_Przyjazdu")
     private ZonedDateTime przyjazd;
 
-    @Column
+    @Column(name = "Czas_Odjazdu")
     private ZonedDateTime odjazd;
 
     public Postoj() {}

@@ -4,9 +4,13 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
+@Entity
+@Table(name = "TRASY")
 public class Trasa {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
     @ManyToMany(cascade = CascadeType.ALL)
@@ -16,7 +20,7 @@ public class Trasa {
     @JoinColumn(name = "Pociag_ID",referencedColumnName = "id")
     private Pociag pociag;
 
-    @Column
+    @Column(name = "Dlugosc_Trasy")
     private float dlugosc;
 
     public Trasa() {}

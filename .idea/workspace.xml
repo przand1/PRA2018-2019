@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" afterDir="false" />
+    <list default="true" id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="baza psql, zapytania">
+      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/PracowaniaProgramowania/target/" />
@@ -25,12 +29,12 @@
     <session id="1274868366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="5" />
+          <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.14" value="3" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.17" value="2" />
@@ -44,7 +48,7 @@
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -61,7 +65,7 @@
           <entry key="class" value="30" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="5" />
-          <entry key="java" value="198" />
+          <entry key="java" value="203" />
           <entry key="jpg" value="2" />
           <entry key="json" value="22" />
           <entry key="log" value="9" />
@@ -69,7 +73,7 @@
           <entry key="myData" value="5" />
           <entry key="properties" value="16" />
           <entry key="txt" value="55" />
-          <entry key="xml" value="59" />
+          <entry key="xml" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -77,30 +81,31 @@
           <entry key="CLASS" value="30" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="198" />
+          <entry key="JAVA" value="203" />
           <entry key="JSON" value="22" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="70" />
           <entry key="Properties" value="16" />
-          <entry key="XML" value="59" />
+          <entry key="XML" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9956" />
+          <entry key="java" value="12197" />
           <entry key="json" value="3" />
           <entry key="properties" value="11" />
-          <entry key="txt" value="97" />
-          <entry key="xml" value="122" />
+          <entry key="txt" value="109" />
+          <entry key="xml" value="130" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9956" />
+          <entry key="JAVA" value="12196" />
+          <entry key="JPA QL" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="PLAIN_TEXT" value="97" />
+          <entry key="PLAIN_TEXT" value="109" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="122" />
+          <entry key="XML" value="130" />
         </counts>
       </usages-collector>
     </session>
@@ -108,35 +113,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="44" />
+            <state relative-caret-position="150">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
               <folding>
-                <element signature="e#633#634#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#694#695#0" expanded="true" />
-                <element signature="e#735#736#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#903#904#0" expanded="true" />
-                <element signature="e#937#938#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1034#1035#0" expanded="true" />
-                <element signature="e#1075#1076#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,25 +145,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
+            <state relative-caret-position="195">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#407#408#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#493#494#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#581#582#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1230#1231#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1310#1311#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,51 +169,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-              <folding>
-                <element signature="e#647#648#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#742#743#0" expanded="true" />
-                <element signature="e#772#773#0" expanded="true" />
-                <element signature="e#818#819#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#966#967#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1037#1038#0" expanded="true" />
-                <element signature="e#1067#1068#0" expanded="true" />
-                <element signature="e#1112#1113#0" expanded="true" />
-                <element signature="e#1150#1151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="315">
+              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#768#769#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#838#839#0" expanded="true" />
-                <element signature="e#872#873#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#934#935#0" expanded="true" />
-                <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1014#1015#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-                <element signature="e#1087#1088#0" expanded="true" />
-                <element signature="e#1142#1143#0" expanded="true" />
-                <element signature="e#1192#1193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -225,29 +181,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-                <element signature="e#837#838#0" expanded="true" />
-                <element signature="e#870#871#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#943#944#0" expanded="true" />
-                <element signature="e#979#980#0" expanded="true" />
-                <element signature="e#1012#1013#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1085#1086#0" expanded="true" />
-                <element signature="e#1121#1122#0" expanded="true" />
-                <element signature="e#1163#1164#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
-                <element signature="e#1249#1250#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-                <element signature="e#1329#1330#0" expanded="true" />
-                <element signature="e#1358#1359#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1445#1446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -256,29 +193,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding>
-                <element signature="e#683#684#0" expanded="true" />
-                <element signature="e#716#717#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#777#778#0" expanded="true" />
-                <element signature="e#806#807#0" expanded="true" />
-                <element signature="e#850#851#0" expanded="true" />
-                <element signature="e#886#887#0" expanded="true" />
-                <element signature="e#918#919#0" expanded="true" />
-                <element signature="e#946#947#0" expanded="true" />
-                <element signature="e#988#989#0" expanded="true" />
-                <element signature="e#1022#1023#0" expanded="true" />
-                <element signature="e#1054#1055#0" expanded="true" />
-                <element signature="e#1082#1083#0" expanded="true" />
-                <element signature="e#1124#1125#0" expanded="true" />
-                <element signature="e#1158#1159#0" expanded="true" />
-                <element signature="e#1193#1194#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
-                <element signature="e#1272#1273#0" expanded="true" />
-                <element signature="e#1312#1313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -286,13 +202,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
-              <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+            <state relative-caret-position="189">
+              <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3586#3600#0" expanded="true" />
-                <element signature="e#4540#4548#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -371,14 +294,15 @@
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/resources/META_INF/persistence.xml" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" />
       </list>
     </option>
@@ -406,9 +330,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="383" />
+    <option name="x" value="75" />
     <option name="y" value="2" />
-    <option name="width" value="1537" />
+    <option name="width" value="1845" />
     <option name="height" value="1054" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -419,6 +343,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -440,7 +366,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -514,6 +439,15 @@
               <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="przyrost2" type="462c0819:PsiDirectoryNode" />
+              <item name="zaptyania" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -537,14 +471,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544798770447" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545143802578" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -586,13 +519,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Manager">
-    <configuration name="JobMapScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quartz.scheduler.JobMapScheduler" />
+  <component name="RunManager" selected="Application.Zapytania">
+    <configuration name="GeneratorBD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="przyrost2.generator.GeneratorBD" />
       <module name="PracowniaMain" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="quartz.scheduler.*" />
+          <option name="PATTERN" value="przyrost2.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -626,19 +559,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleScheduler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="quartz.scheduler.SimpleScheduler" />
-      <module name="PracowniaMain" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="quartz.scheduler.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TimeOps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="quartz.job.TimeOps" />
       <module name="PracowniaMain" />
@@ -652,20 +572,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zapytania" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="przyrost2.zaptyania.Zapytania" />
+      <module name="PracowniaMain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="przyrost2.zaptyania.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SimpleScheduler" />
-      <item itemvalue="Application.JobMapScheduler" />
       <item itemvalue="Application.Manager" />
       <item itemvalue="Application.TimeOps" />
       <item itemvalue="Application.PeselTester" />
+      <item itemvalue="Application.GeneratorBD" />
+      <item itemvalue="Application.Zapytania" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zapytania" />
+        <item itemvalue="Application.GeneratorBD" />
         <item itemvalue="Application.PeselTester" />
         <item itemvalue="Application.TimeOps" />
         <item itemvalue="Application.Manager" />
-        <item itemvalue="Application.JobMapScheduler" />
-        <item itemvalue="Application.SimpleScheduler" />
       </list>
     </recent_temporary>
   </component>
@@ -707,7 +640,9 @@
       <workItem from="1544706127341" duration="2525000" />
       <workItem from="1544710555907" duration="34000" />
       <workItem from="1544780734372" duration="2310000" />
-      <workItem from="1544784439594" duration="12785000" />
+      <workItem from="1544784439594" duration="12882000" />
+      <workItem from="1545133936233" duration="9278000" />
+      <workItem from="1545143875294" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1538743552989</created>
@@ -863,11 +798,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544710575219</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="baza psql">
+      <created>1544798832426</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1544798832426</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91512000" />
+    <option name="totallyTimeSpent" value="100972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -879,10 +821,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="383" y="2" width="1537" height="1054" extended-state="0" />
+    <frame x="75" y="2" width="1845" height="1054" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11752854" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18196996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -892,7 +834,7 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32867885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.72998935" weight="0.2964554" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7295492" weight="0.29621622" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -900,8 +842,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994664" weight="0.32760474" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32844576" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.27001068" side_tool="true" visible="true" weight="0.19783784" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.4968017" weight="0.32692307" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50417364" side_tool="true" visible="true" weight="0.3264865" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49582636" visible="true" weight="0.3264865" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -912,7 +854,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.065815985" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.054535337" />
       <window_info anchor="right" id="CDI" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
@@ -935,7 +877,8 @@
     <MESSAGE value="masdter2" />
     <MESSAGE value="mastre3" />
     <MESSAGE value="baza psql" />
-    <option name="LAST_COMMIT_MESSAGE" value="baza psql" />
+    <MESSAGE value="baza psql, zapytania" />
+    <option name="LAST_COMMIT_MESSAGE" value="baza psql, zapytania" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1058,7 +1001,6 @@ list.get(99999);</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/pl/edu/amu/pracprog/JacksonSerialization.java" />
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Comparator.class">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1252,216 +1194,6 @@ list.get(99999);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="65" selection-end-line="15" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="73" lean-forward="true" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#getThemAll#0;class#Manager#0" />
-            <element signature="method#generateEmployees#0;class#Manager#0" />
-            <element signature="method#poNazwisku#0;class#Manager#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#563#564#0" expanded="true" />
-            <element signature="e#596#597#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#663#664#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-            <element signature="e#756#757#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#845#846#0" expanded="true" />
-            <element signature="e#881#882#0" expanded="true" />
-            <element signature="e#938#939#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#647#648#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#742#743#0" expanded="true" />
-            <element signature="e#772#773#0" expanded="true" />
-            <element signature="e#818#819#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#890#891#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#966#967#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1037#1038#0" expanded="true" />
-            <element signature="e#1067#1068#0" expanded="true" />
-            <element signature="e#1112#1113#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#708#709#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#838#839#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#934#935#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1142#1143#0" expanded="true" />
-            <element signature="e#1192#1193#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-          <folding>
-            <element signature="e#683#684#0" expanded="true" />
-            <element signature="e#716#717#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#777#778#0" expanded="true" />
-            <element signature="e#806#807#0" expanded="true" />
-            <element signature="e#850#851#0" expanded="true" />
-            <element signature="e#886#887#0" expanded="true" />
-            <element signature="e#918#919#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-            <element signature="e#1054#1055#0" expanded="true" />
-            <element signature="e#1082#1083#0" expanded="true" />
-            <element signature="e#1124#1125#0" expanded="true" />
-            <element signature="e#1158#1159#0" expanded="true" />
-            <element signature="e#1193#1194#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
-            <element signature="e#1272#1273#0" expanded="true" />
-            <element signature="e#1312#1313#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="34" column="31" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#493#494#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#847#848#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1230#1231#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
-          <folding>
-            <element signature="e#633#634#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#903#904#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#1034#1035#0" expanded="true" />
-            <element signature="e#1075#1076#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#837#838#0" expanded="true" />
-            <element signature="e#870#871#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#979#980#0" expanded="true" />
-            <element signature="e#1012#1013#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1121#1122#0" expanded="true" />
-            <element signature="e#1163#1164#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
-            <element signature="e#1249#1250#0" expanded="true" />
-            <element signature="e#1289#1290#0" expanded="true" />
-            <element signature="e#1329#1330#0" expanded="true" />
-            <element signature="e#1358#1359#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-            <element signature="e#1445#1446#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/time/LocalDateTime.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1476,14 +1208,105 @@ list.get(99999);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="142" column="49" selection-start-line="142" selection-start-column="49" selection-end-line="142" selection-end-column="49" />
+        <state relative-caret-position="510">
+          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3586#3600#0" expanded="true" />
-            <element signature="e#4540#4548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

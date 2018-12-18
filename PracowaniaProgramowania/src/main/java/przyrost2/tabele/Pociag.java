@@ -3,19 +3,22 @@ package przyrost2.tabele;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "POCIAGI")
 public class Pociag {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
     @ManyToOne
     @JoinColumn(name = "Przewoznik_ID", referencedColumnName = "id")
     private Przewoznik przewoznik;
 
-    @Column
+    @Column(name = "Ilosc_Miejsc")
     private int ilocsMiejsc;
-    @Column
+    @Column(name = "Predkosc_Srednia")
     private float predkoscSrednia;
 
     public Pociag() {}

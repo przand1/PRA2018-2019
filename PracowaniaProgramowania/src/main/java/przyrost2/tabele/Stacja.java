@@ -2,26 +2,26 @@ package przyrost2.tabele;
 
 import com.sun.xml.internal.ws.server.ServerRtException;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "STACJE")
 public class Stacja {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator = "gen")
+    @SequenceGenerator(name="gen", sequenceName = "author_seq")
+    @Column(name = "ID")
     private int id;
 
 
-    @Column
+    @Column(name = "Nazwa_Stacji")
     private String nazwa;
 
-    @Column
+    @Column(name = "Miasto")
     private String miasto;
 
-    @Column
+    @Column(name = "Liczba_Peronow")
     private int liczbaPeronow;
 
     public Stacja() {}
