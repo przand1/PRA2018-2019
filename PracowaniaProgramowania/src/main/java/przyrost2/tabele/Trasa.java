@@ -20,16 +20,11 @@ public class Trasa {
     @JoinColumn(name = "Pociag_ID",referencedColumnName = "id")
     private Pociag pociag;
 
-    @Column(name = "Dlugosc_Trasy")
-    private float dlugosc;
-
     public Trasa() {}
 
     public Trasa(List<OdcinekTrasy> przebiegTrasy,Pociag pociag) {
         this.pociag = pociag;
         this.przebiegTrasy = przebiegTrasy;
-        dlugosc = 0.0f;
-        przebiegTrasy.forEach(odcinekTrasy -> dlugosc += odcinekTrasy.getDlugosc());
     }
 
     public int getId() {
@@ -48,13 +43,6 @@ public class Trasa {
         this.przebiegTrasy = przebiegTrasy;
     }
 
-    public float getDlugosc() {
-        return dlugosc;
-    }
-
-    public void setDlugosc(float dlugosc) {
-        this.dlugosc = dlugosc;
-    }
 
     public Pociag getPociag() {
         return pociag;

@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="baza psql, zapytania">
-      <change afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" afterDir="false" />
+    <list default="true" id="3f28f8d7-c679-43af-bcda-91035e62724e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hello/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/Manager.class" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/Manager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hello/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/model/Address.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PracowaniaProgramowania/target/classes/hibernate/model/Employee.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/log.log" beforeDir="false" afterPath="$PROJECT_DIR$/log.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,14 +33,15 @@
     <session id="1274868366">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="33" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="6" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.14" value="4" />
           <entry key="project.open.time.15" value="2" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -44,11 +49,12 @@
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.43" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.63" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -62,10 +68,10 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="30" />
+          <entry key="class" value="31" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="5" />
-          <entry key="java" value="203" />
+          <entry key="java" value="213" />
           <entry key="jpg" value="2" />
           <entry key="json" value="22" />
           <entry key="log" value="9" />
@@ -73,39 +79,39 @@
           <entry key="myData" value="5" />
           <entry key="properties" value="16" />
           <entry key="txt" value="55" />
-          <entry key="xml" value="61" />
+          <entry key="xml" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="30" />
+          <entry key="CLASS" value="31" />
           <entry key="IDEA_MODULE" value="5" />
           <entry key="Image" value="2" />
-          <entry key="JAVA" value="203" />
+          <entry key="JAVA" value="213" />
           <entry key="JSON" value="22" />
           <entry key="Markdown" value="5" />
           <entry key="PLAIN_TEXT" value="70" />
           <entry key="Properties" value="16" />
-          <entry key="XML" value="61" />
+          <entry key="XML" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12197" />
+          <entry key="java" value="17529" />
           <entry key="json" value="3" />
           <entry key="properties" value="11" />
           <entry key="txt" value="109" />
-          <entry key="xml" value="130" />
+          <entry key="xml" value="179" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12196" />
+          <entry key="JAVA" value="17528" />
           <entry key="JPA QL" value="1" />
           <entry key="JSON" value="3" />
           <entry key="PLAIN_TEXT" value="109" />
           <entry key="Properties" value="11" />
-          <entry key="XML" value="130" />
+          <entry key="XML" value="179" />
         </counts>
       </usages-collector>
     </session>
@@ -113,64 +119,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+            <state relative-caret-position="210">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,29 +133,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state relative-caret-position="180">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+            <state relative-caret-position="440">
+              <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -212,10 +155,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
+        <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+            <state relative-caret-position="268">
+              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,6 +189,9 @@
       <find>hiber</find>
       <find>hql</find>
       <find>LocalDateTime(</find>
+      <find>print</find>
+      <find>dlu</find>
+      <find>Stacja</find>
     </findStrings>
     <replaceStrings>
       <replace>charAt</replace>
@@ -294,16 +243,16 @@
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/resources/META_INF/persistence.xml" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java" />
+        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java" />
-        <option value="$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java" />
       </list>
     </option>
   </component>
@@ -329,11 +278,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="75" />
     <option name="y" value="2" />
-    <option name="width" value="1845" />
-    <option name="height" value="1054" />
+    <option name="width" value="1330" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -343,8 +292,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -390,23 +337,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PracowaniaProgramowania" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hibernate" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PRA2018-2019" type="b2602c69:ProjectViewProjectNode" />
@@ -471,13 +401,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545143802578" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545401713589" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -642,7 +574,10 @@
       <workItem from="1544780734372" duration="2310000" />
       <workItem from="1544784439594" duration="12882000" />
       <workItem from="1545133936233" duration="9278000" />
-      <workItem from="1545143875294" duration="85000" />
+      <workItem from="1545143875294" duration="119000" />
+      <workItem from="1545224215574" duration="5492000" />
+      <workItem from="1545341766418" duration="14883000" />
+      <workItem from="1545395551413" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 1">
       <created>1538743552989</created>
@@ -805,11 +740,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544798832426</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="baza psql, zapytania">
+      <created>1545143979751</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1545143979751</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100972000" />
+    <option name="totallyTimeSpent" value="127642000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -821,10 +763,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="2" width="1845" height="1054" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="-1" width="1922" height="1060" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18196996" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13020277" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -834,17 +775,17 @@
       <window_info id="Persistence" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4994664" weight="0.32867885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7295492" weight="0.29621622" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.375" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.7166489" weight="0.2943072" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49306297" weight="0.3727175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32850778" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994664" weight="0.32760474" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32760474" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49893278" weight="0.32760474" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32844576" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50417364" side_tool="true" visible="true" weight="0.3264865" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.49582636" visible="true" weight="0.3264865" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32991204" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4994664" weight="0.32760474" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.28335112" side_tool="true" visible="true" weight="0.2943072" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48986125" weight="0.32330826" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.4994664" weight="0.32975295" />
       <window_info anchor="bottom" id="Spring" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -854,7 +795,7 @@
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.054535337" />
+      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.04429029" />
       <window_info anchor="right" id="CDI" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
@@ -1001,16 +942,6 @@ list.get(99999);</expression-string>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/Comparator.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/Collectors.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/lambdas/ListOperations.java" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1187,13 +1118,6 @@ list.get(99999);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/time/LocalDateTime.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1208,28 +1132,25 @@ list.get(99999);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="69" column="45" lean-forward="true" selection-start-line="69" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/Main.java" />
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="315">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
         </state>
       </provider>
     </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Polaczenie.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Employee.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/model/Address.java" />
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/hibernate/Manager.java" />
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Cennik.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1237,10 +1158,10 @@ list.get(99999);</expression-string>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        <state relative-caret-position="163">
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1249,18 +1170,31 @@ list.get(99999);</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Trasa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="298">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/OdcinekTrasy.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Pociag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="69" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
+        <state relative-caret-position="77">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Stacja.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1269,42 +1203,35 @@ list.get(99999);</expression-string>
     </entry>
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Postoj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state relative-caret-position="180">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/tabele/Przewoznik.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+        <state relative-caret-position="255">
+          <caret line="17" column="65" lean-forward="true" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+        <state relative-caret-position="268">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/generator/GeneratorBD.java">
+    <entry file="file://$PROJECT_DIR$/PracowaniaProgramowania/src/main/java/przyrost2/zaptyania/Zapytania.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
+        <state relative-caret-position="440">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

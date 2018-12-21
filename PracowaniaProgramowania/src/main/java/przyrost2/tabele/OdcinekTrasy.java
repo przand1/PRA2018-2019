@@ -1,9 +1,7 @@
 package przyrost2.tabele;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name = "ODCINKI_TRAS")
@@ -23,7 +21,7 @@ public class OdcinekTrasy {
     private Stacja stacja2;
 
     @ManyToMany(mappedBy = "przebiegTrasy",cascade = CascadeType.ALL)
-    private Set<Trasa> trasy = new HashSet<Trasa>();
+    private List<Trasa> trasy;
 
     @Column(name = "Dlugosc_Odcinka")
     private float dlugosc;
@@ -34,6 +32,10 @@ public class OdcinekTrasy {
         this.stacja1 = stacja1;
         this.stacja2 = stacja2;
         this.dlugosc = dlugosc;
+    }
+
+    public boolean equals(OdcinekTrasy other) {
+        return this.id == other.getId();
     }
 
     public int getId() {

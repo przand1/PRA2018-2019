@@ -1,19 +1,20 @@
 package przyrost2.tabele;
 
-import com.sun.xml.internal.ws.server.ServerRtException;
-
 import javax.persistence.*;
 
 @Entity
 @Table(name = "STACJE")
 public class Stacja {
 
+    public boolean equals(Stacja s) {
+        return this.id == s.getId();
+    }
+
     @Id
     @GeneratedValue(generator = "gen")
     @SequenceGenerator(name="gen", sequenceName = "author_seq")
     @Column(name = "ID")
     private int id;
-
 
     @Column(name = "Nazwa_Stacji")
     private String nazwa;

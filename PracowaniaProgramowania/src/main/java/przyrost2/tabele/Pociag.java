@@ -16,6 +16,20 @@ public class Pociag {
     @JoinColumn(name = "Przewoznik_ID", referencedColumnName = "id")
     private Przewoznik przewoznik;
 
+    @Column(name = "Nazwa")
+    private String nazwa;
+
+    public Pociag(Przewoznik przewoznik, String nazwa, int ilocsMiejsc, float predkoscSrednia) {
+        this.przewoznik = przewoznik;
+        this.nazwa = nazwa;
+        this.ilocsMiejsc = ilocsMiejsc;
+        this.predkoscSrednia = predkoscSrednia;
+    }
+
+    public String getNazwa() {
+        return nazwa;
+    }
+
     @Column(name = "Ilosc_Miejsc")
     private int ilocsMiejsc;
     @Column(name = "Predkosc_Srednia")
@@ -23,10 +37,8 @@ public class Pociag {
 
     public Pociag() {}
 
-    public Pociag(Przewoznik przewoznik, int ilocsMiejsc, float predkoscSrednia) {
-        this.przewoznik = przewoznik;
-        this.ilocsMiejsc = ilocsMiejsc;
-        this.predkoscSrednia = predkoscSrednia;
+    public void setNazwa(String nazwa) {
+        this.nazwa = nazwa;
     }
 
     public int getId() {

@@ -33,7 +33,7 @@ public class GeneratorBD {
         Stacja dmFab = new Stacja("Duże Miasto Fabryka","Duże Miasto",3);
         Stacja dmPrzed = new Stacja("Duże Miasto Przedmieścia","Duże Miasto",3);
         Stacja imGlowny = new Stacja("Inne Miasto Główny","Inne Miasto ",4);
-        Stacja imPln = new Stacja("Inne Miasto Przedmieścia","Inne Miasto ",3);
+        Stacja imPln = new Stacja("Inne Miasto Północ", "Inne Miasto ", 3);
 
         //stwórz odcinki
         OdcinekTrasy ab = new OdcinekTrasy(amowo,bemowo,18.5f);
@@ -42,59 +42,63 @@ public class GeneratorBD {
         OdcinekTrasy dmgdmf = new OdcinekTrasy(dmGlowny,dmFab,5.2f);
         OdcinekTrasy dmfc = new OdcinekTrasy(dmFab,cemowo,30.0f);
         OdcinekTrasy cd = new OdcinekTrasy(cemowo,demowo,28.8f);
+
+        OdcinekTrasy dc = new OdcinekTrasy(demowo, cemowo, 28.8f);
         OdcinekTrasy ce = new OdcinekTrasy(cemowo,emowo,44.4f);
         OdcinekTrasy ef = new OdcinekTrasy(emowo,efowo,41.9f);
         OdcinekTrasy fimg = new OdcinekTrasy(efowo,imGlowny,52.2f);
-        OdcinekTrasy imgimp = new OdcinekTrasy(imGlowny,imPln,7.1f);
+
+        OdcinekTrasy impnimg = new OdcinekTrasy(imPln, imGlowny, 7.1f);
         OdcinekTrasy imgjw = new OdcinekTrasy(imGlowny,wies,20.5f);
         OdcinekTrasy jwks = new OdcinekTrasy(wies,koniec,10.7f);
+
         OdcinekTrasy jwg = new OdcinekTrasy(wies,gemowo,25.2f);
         OdcinekTrasy gdmprz = new OdcinekTrasy(gemowo,dmPrzed,21.6f);
         OdcinekTrasy dmprzdmg = new OdcinekTrasy(dmPrzed,dmGlowny,4.6f);
 
         //stwórz cenniki
-        Cennik c1 = new Cennik(2.4f,1.5f);
-        Cennik c2 = new Cennik(2.8f,1.2f);
+        Cennik c1 = new Cennik(1.2f, 0.75f);
+        Cennik c2 = new Cennik(1.4f, 0.6f);
 
         //stwórz przewoźników
-        Przewoznik szybki = new Przewoznik(c2,"Szybki Transport sp.z.o.o.","SzP","ul. Krótka 4, Duże Miasto, 12-345");
+        Przewoznik szybki = new Przewoznik(c2, "Szybki Transport sp.z.o.o.", "SZT", "ul. Krótka 4, Duże Miasto, 12-345");
         Przewoznik regio = new Przewoznik(c1,"Transport Regionalny Inc","TREG","ul. Kościelna 21/6, Inne Miasto, 98-765");
 
         //stwórz pociągi
-        Pociag adReg = new Pociag(regio,200,55.5f);
-        Pociag dmImSz = new Pociag(szybki,150,88f);
-        Pociag deImSz = new Pociag(szybki,220,111f);
-        Pociag imKsReg = new Pociag(regio,120,49.5f);
+        Pociag adReg = new Pociag(regio, "TREG55", 200, 55.5f);
+        Pociag dmImSz = new Pociag(szybki, "SZT88", 150, 88f);
+        Pociag deImSz = new Pociag(szybki, "SZT111", 220, 111f);
+        Pociag imKsReg = new Pociag(regio, "TREG49", 120, 49.5f);
 
         //stwórz trasy
-        List<OdcinekTrasy> trasa = new ArrayList<>();
-        trasa.add(dmprzdmg);
-        trasa.add(gdmprz);
-        trasa.add(jwg);
-        trasa.add(imgjw);
-        Trasa DuzeInne = new Trasa(trasa,dmImSz);
+        List<OdcinekTrasy> trasa1 = new ArrayList<>();
+        trasa1.add(imgjw);
+        trasa1.add(jwg);
+        trasa1.add(gdmprz);
+        trasa1.add(dmprzdmg);
+        Trasa DuzeInne = new Trasa(trasa1, dmImSz);
 
-        trasa.clear();
-        trasa.add(imgimp);
-        trasa.add(imgjw);
-        trasa.add(jwks);
-        Trasa InneKoniec = new Trasa(trasa,imKsReg);
+        List<OdcinekTrasy> trasa2 = new ArrayList<>();
+        trasa2.add(impnimg);
+        trasa2.add(imgjw);
+        trasa2.add(jwks);
+        Trasa InneKoniec = new Trasa(trasa2, imKsReg);
 
-        trasa.clear();
-        trasa.add(ab);
-        trasa.add(bdmpo);
-        trasa.add(dmpodmg);
-        trasa.add(dmgdmf);
-        trasa.add(dmfc);
-        trasa.add(cd);
-        Trasa AmDe = new Trasa(trasa,adReg);
+        List<OdcinekTrasy> trasa3 = new ArrayList<>();
+        trasa3.add(ab);
+        trasa3.add(bdmpo);
+        trasa3.add(dmpodmg);
+        trasa3.add(dmgdmf);
+        trasa3.add(dmfc);
+        trasa3.add(cd);
+        Trasa AmDe = new Trasa(trasa3, adReg);
 
-        trasa.clear();
-        trasa.add(cd);
-        trasa.add(ce);
-        trasa.add(ef);
-        trasa.add(fimg);
-        Trasa DeInne = new Trasa(trasa,deImSz);
+        List<OdcinekTrasy> trasa4 = new ArrayList<>();
+        trasa4.add(dc);
+        trasa4.add(ce);
+        trasa4.add(ef);
+        trasa4.add(fimg);
+        Trasa DeInne = new Trasa(trasa4, deImSz);
 
         //stwórz postoje
         List<Postoj> postojList = new ArrayList<>();
@@ -174,14 +178,16 @@ public class GeneratorBD {
             //zapisz odcinki
             manager.persist(ab);
             manager.persist(bdmpo);
+            manager.persist(bdmpo);
             manager.persist(dmpodmg);
             manager.persist(dmgdmf);
             manager.persist(dmfc);
             manager.persist(cd);
+            manager.persist(dc);
             manager.persist(ce);
             manager.persist(ef);
             manager.persist(fimg);
-            manager.persist(imgimp);
+            manager.persist(impnimg);
             manager.persist(imgjw);
             manager.persist(jwks);
             manager.persist(jwg);
